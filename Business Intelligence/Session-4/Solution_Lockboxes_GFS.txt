@@ -1,0 +1,17 @@
+Dear BI Students,
+
+We have shared the solution file of the exercise that you teacher gave you. Please follow the link given below to download the file:
+https://drive.google.com/drive/folders/17VDIMUYn2-DLkeEI7VBRdjWnJ5yi6P_6?usp=sharing
+
+Please follow the steps as given below to see the solution :
+1. Download and save the file.
+2. Open the file and click on "Transform the data" from the Home menu.
+3. Once you are in Power Query, click the gear button beside Source in Applied Steps.
+4. Change the path of the file with the path where you have saved source data file.
+5. Go through each step in "Applied Steps" of the query to learn how data was cleaned from the text file.
+You may discuss this solution with your teacher during the class.
+
+Sincerely,
+
+Consultants
+Crux International Canada
