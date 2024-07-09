@@ -1,0 +1,11 @@
+In Power Query we can fill data in column (upward and downward) but can't fill side by side for this we can use transpose.
+
+
+Custom Column / Condition Column
+try Time.From([out]) otherwise null
+if Time Out = null then [out] else null
+Table.Max([Details], "Amount")
+if Text.StartsWith([Column1], "Batch Name     :") then Text.End([Column1], 5) else null
+
+
+
