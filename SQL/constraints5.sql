@@ -1,0 +1,6 @@
+USE campusx;
+CREATE TABLE ticket(
+	ticket_id INTEGER PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    travel_date DATETIME DEFAULT CURRENT_TIMESTAMP
+)

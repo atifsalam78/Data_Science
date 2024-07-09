@@ -1,0 +1,34 @@
+Sorting Data
+1.) Find top 5 samsung phones with biggest screen size
+2.) Sort all the phones in descending order of number of total cameras
+3.) Sort data on the basis of ppi in descending order
+4.) Find the phone with 2md largest battery
+5.) Find the name and rating of the worst rated apple phone
+6.) Sort phones alphabetically and then on the basis of price in desc order
+7.) Sort phones alphabetically and then on the basis of price in asc order
+
+Grouping Data
+1.) Group smartphones by brand and get the count, average price, max rating, avg, screen size and avg battery capacity
+Group By Animation
+2.) Group smartphones by whether they have an NFC and get the average price and rating
+3.) Group smartphones by the extended memory available and get the average price
+4.) Group smartphone by the brand and processor brand and get the count of models and the average primary camera resolution(rear)
+5.) find top 5 most costly phone brands
+6.) which brand makes the smalles screen smartphones
+7.) Avg price of 5g phones vs avg price of non 5g phones
+8.) Group smartphones by the brand, and find the brand with the highest numbers of models that have both
+9.) Find all samsung 5g enabled smartphones and find out the avg price for NFC and Non-NFC phones
+10.) Find the phones name, price of the costliest phones
+
+
+Having Clause
+1.) Find the avg rating of smartphone brands which have more than 20 phones
+2.) Find the top 3 brands with the highest avg ram that have a refresh rate of atleast 90 Hz and fast charging available and dont consider brands which have less than 10 phones
+3.) Find the avg price of all the phones brands with avg rating > 70b and num_phones more than 10 among all 5g phones.
+
+Practice
+1.) Find the top 5 batsman in IPL
+2.) Find the 2md highest 6 hitter in IPL
+3.) Find Virat Kohli's performance agaisnt all IPL teams
+4.) Find top 10 batsman with centuries in IPL
+5.) Find the top 5 batsman with highest strike rate who have played a min of 1000 balls 
