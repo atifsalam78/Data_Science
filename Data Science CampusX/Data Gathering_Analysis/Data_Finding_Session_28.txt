@@ -1,0 +1,75 @@
+patients:
+Messy Data
+Contact Column: should be seprated into two columns
+
+
+Dirty Data
+Zip Code should be 5 digits - (Validity)
+State Column should be in one form long or short - (Consistency)
+Null Vaues in address, city, state, zip code, country, contact - (Competency)
+birthdate is in wrong format shoud be date - (Validity)
+zipcode, sex is in wrong format - (Consistency)
+"John Doe" have duplicated entries - (Accuracy)
+patient_id 9 is misspelled it should be "David" instead of "Dsvid" - (Consistency) - Accuracy
+patient_id 211 has abnormal weight according to his height - (Accuracy)
+patient_id 5 has abnormal height according to his weight - (Accuracy)
+
+treatments & treatments_cut:
+Messy Data
+Column auralin & novodra have starting and ending values in same column it should be in seprate column
+merge both the tables
+
+
+Dirty Data
+Column auralin & novodra have starting and ending values and remove "u" - (Validity)
+given_name & surname is in lower case while in patient table is in Capatalize - (Consistency)
+Column auralin & novodra both have "-" instead of blank which is actualy null values but pandas will not consider these as null values - (Competency)
+patient_id 136 has duplicated entries - (Accuracy)
+hba1c_change has null values - (Completion)
+hba1c_change has calculation error "9" instead of "4" - (Accuracy)
+"joseph day" have duplicated entries - (Accuracy)
+
+adverse_reactions:
+Messy Data:
+This table shoud not be exists independently
+
+Dirty Data
+    given_name & surname is in lower case - (Consistency)
+    
+    
+Define
+1.) Replace all missing values with "No Data" - (Solve Completion)
+2.) Subtract hba1c_start from hba1c_end to get all the values
+3.) In patients table we will use regex to seperate email and phone
+4.) Using concat merge treatments & treatments_cut
+5.) Using melt() convert auralin & novodra in long format and column name "dosage range"
+6.) Use only values that do not have "-" in column "dosage range"
+7.) Split column dosage range into two "range_start" & "range_end" using split() and convert to int
+8.) Drop dosage_range column.
+9.) Merge adverse_reaction into treatments table
+10.) convert birthdate into datetime format
+11.) Fill patients table null values into "No Data"
+12.) Convert "assigned_sex" into category format
+13.) Convert "zip_code" to str and using customize function add "0" before 4 digits values.
+14.) Remove duplicate values of patients table "John" "Doe".
+15.) Replace "State" column values to abbreviated instead of full name.
+16.) Replace "Dsvid" wit correct "David"
+17.) Replace wrong height value of patient_id 5 by calculating formula "np.sqrt(patients_df["weight"] / patients_df["bmi"])"
+18.) Replace wrong weight value of patient_id 211 by calculating formula "Weight (in kg) = (BMI * (Height (in meters))^2)*2.2"
+19.) Capatilize "given_name" & "surname" of table treatments
+20.) Remove duplicate values of "Joseph" "Day"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
