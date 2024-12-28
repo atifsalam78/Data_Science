@@ -1,0 +1,48 @@
+What question we ask when we get data
+
+1.) Asking basic questions
+	1.) How big is the data?
+		df.shape
+	2.) How does the data look like?
+		df.head or
+		when data is biased
+		df.sample(5)
+		
+	3.) What is the data type of columns?
+		df.info()
+	4.) Are ther any missing values?
+		df.isnull().sum()
+	5.) How does the data look mathematically?
+		df.describe()
+	6.) Are there duplicate values?
+		df.duplicated().sum()
+	7.) How is the correlation between columns?
+		df.corr()
+	
+
+2.) EDA(Exploratory Data Analysis) - Univariate
+	Type of Data:
+	1.) Numerical Data (matplotlib)
+		a.) Histogram
+		b.) Distplot
+		c.) Boxplot
+	2.) Categorical Data (seaborn)
+		a.) Count Plot
+		b.) Pie Plot
+
+3.) EDA(Exploratory Data Analysis) - Bivariate
+	
+
+4.) EDA(Exploratory Data Analysis) - Multivariate
+	a.) Scatterplot ( Numerical - Numerical )
+	b.) Barplot ( Numerical - Categorical )
+	c.) Boxplot ( Numerical - Categorical )
+	d.) Distplot ( Numerical - Categorical )
+	e.) Heatmap ( Categorical - Categorical )
+		crosstab()
+	f.) Clustermap (Categorical - Categorical )
+	g.) Pairplot
+	h.) Lineplot ( Numerical - Numerical )
+
+5.) Pandas Profiler
+	
