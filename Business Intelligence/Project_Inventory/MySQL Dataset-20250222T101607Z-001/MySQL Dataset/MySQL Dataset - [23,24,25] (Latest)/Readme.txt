@@ -1,0 +1,1 @@
+As we know, 2025 has just started, and I have provided you with a dataset that includes data for 2025 as well. Since the year 2025 has just begun and the data goes up to November 2025, it may not be entirely valid in some contexts. This could mean that the autodate method might not work perfectly for year 2023,2024. However, you can still use this dataset for practice purposes.

@@ -1,0 +1,20 @@
+insert into whCosts values ('PLANT15','1.41506337668766');
+insert into whCosts values ('PLANT17','0.428946587089212');
+insert into whCosts values ('PLANT18','2.03625375980335');
+insert into whCosts values ('PLANT05','0.488144384527383');
+insert into whCosts values ('PLANT02','0.477503518927222');
+insert into whCosts values ('PLANT01','0.566976184929562');
+insert into whCosts values ('PLANT06','0.554088097625788');
+insert into whCosts values ('PLANT10','0.493581898482945');
+insert into whCosts values ('PLANT07','0.371423937425446');
+insert into whCosts values ('PLANT14','0.634329737704667');
+insert into whCosts values ('PLANT16','1.91980750785243');
+insert into whCosts values ('PLANT12','0.773131794317886');
+insert into whCosts values ('PLANT11','0.555247290451204');
+insert into whCosts values ('PLANT09','0.465071097382935');
+insert into whCosts values ('PLANT03','0.517501891625462');
+insert into whCosts values ('PLANT13','0.469707056581513');
+insert into whCosts values ('PLANT19','0.639762519817494');
+insert into whCosts values ('PLANT08','0.522857299196222');
+insert into whCosts values ('PLANT04','0.428503295148217');
+select * from whCosts
